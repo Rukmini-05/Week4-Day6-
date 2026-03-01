@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student CRUD Mini Module</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Student Management System</h2>
+
+    <div>
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="number" id="age" placeholder="Enter Age">
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="studentTable"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
