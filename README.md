@@ -2,6 +2,7 @@
 CRUD Mini Module
 
 Student CRUD Mini Module
+
 Project Description This is a simple Student Management System built using HTML, CSS, and JavaScript.
 
 It demonstrates basic CRUD operations:
